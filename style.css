@@ -1,0 +1,59 @@
+html{
+    background: url(/assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(275, 100%, 97%);
+}
+
+.main-div{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    width: 35%;
+    padding: 20px;
+    border-radius: 1rem;
+    font-family: Work sans , sans-serif;
+    height: auto;
+}
+
+.head{
+    display: flex;
+    gap: 1rem;
+    font-weight: 700;
+}
+
+.plus:hover{
+    cursor: pointer;
+}
+
+.plus{
+    margin-left: auto;
+}
+
+.question{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.answer{
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 500px) {
+    html{
+        background: url(./assets/images/background-pattern-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: hsl(275, 100%, 97%);
+    }
+
+    .main-div{
+        margin-top: 30%;
+        width: 85%;
+        height: auto;
+    }
+}
